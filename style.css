@@ -155,7 +155,7 @@ ul li a:is(:hover, :focus) {
     margin: 270px 20px;
     min-width: 300px;
     border-radius: 10px;
-    background-color: rgba(218, 218, 144, 0.815);
+    background-color: rgba(218, 218, 144, 0.616);
   }
 }
 
