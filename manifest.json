@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
   "version": "1.0",
-  "permissions": ["tabs", "activeTab", "storage"],
-  "name": "Leads Tracker Magnet - GiftinTech",
+  "permissions": ["tabs", "storage"],
+  "name": "Leads Tracker Magnet",
   "action": {
       "default_popup": "index.html",
       "default_icon": "icon.png"
   },
   "background": {
-    "service_worker": "main.js"
+    "service_worker": "background.js"
   }
 }
