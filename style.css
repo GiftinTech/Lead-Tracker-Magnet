@@ -149,7 +149,7 @@ ul li a:is(:hover, :focus) {
   border: none;
   background-color: rgba(0, 128, 0, 0.555);
 }
-
+/* 
 @media (max-width: 490px) {
   body {
     margin: 270px 20px;
@@ -157,5 +157,5 @@ ul li a:is(:hover, :focus) {
     border-radius: 10px;
     background-color: rgba(218, 218, 144, 0.815);
   }
-}
+} */
 
