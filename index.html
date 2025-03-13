@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="GiftinTech">
+  <meta name="description" content="Never lose a link again! A Google Chrome Extension where you can store your leads.">
+  <link rel="stylesheet" href="style.css">
+  <title>Leads Tracker Magnet</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <input type="text" name="input" id="input" class="input">
+    <button class="save-input-btn">save input</button>
+    <button class="save-tab-btn">save tab</button>
+    <button class="delete-btn">delete all</button>
+    <ul>
+      <li class="first-li">Leads History</li>
+    </ul>
+    <ul class="ul-el"></ul>
+
+    <dialog class="confirm-delete">
+      <h1>Are you sure you want to delete all your leads?</h1>
+      <p>This action is irreversible</p>
+      <p>
+        <button class="yes-del">yes</button>
+        <button class="no-del">no</button>
+      </p>
+    </dialog>
+
+  <script defer src="main.js"></script>
+</body>
+</html>
